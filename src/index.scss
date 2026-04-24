@@ -113,12 +113,19 @@ h1 {
   line-height: 1.1;
 }
 
-/* Common Layout Utilities */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 clamp(1.25rem, 4vw, 3rem);
+/* Global container — centres content with 10% side breathing space on large screens */
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: clamp(1.25rem, 5vw, 2.5rem) !important;
+  padding-right: clamp(1.25rem, 5vw, 2.5rem) !important;
 }
 
 .py-5 {

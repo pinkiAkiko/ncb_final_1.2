@@ -598,8 +598,6 @@
     display: flex;
     align-items: center;
     gap: 56px;
-    max-width: 1240px;
-    margin: 0 auto;
     position: relative;
     z-index: 10;
     perspective: 1200px;
@@ -3843,12 +3841,11 @@
     background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
     background-size: 24px 24px;
     overflow: hidden;
-    padding: 20px 0 20px;
+    padding: 12px 0;
 }
 
 .kb-hero-container {
     max-width: 1200px;
-    padding: 0 24px;
 }
 
 .kb-hero-split-row {
