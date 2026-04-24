@@ -34,7 +34,7 @@ body.sidebar-open {
 /* ================= Header Layer 1: Utility Bar (Dark Navy) ================= */
 .header-utility-bar {
     background-color: $dark-navy;
-    padding: 8px 0;
+    padding: 6px 0;
     font-size: 12px;
     color: $white;
 }
@@ -104,7 +104,7 @@ body.sidebar-open {
 /* ================= Header Layer 2: Main Branding (White) ================= */
 .header-main-branding {
     background-color: $white;
-    padding: 8px 0;
+    padding: 1.2rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -122,12 +122,12 @@ body.sidebar-open {
 }
 
 .gov-emblem {
-    height: 70px;
+    height: 55px;
     width: auto;
 }
 
 .ncb-logo-small {
-    height: 70px;
+    height: 55px;
     width: auto;
 }
 
@@ -237,7 +237,7 @@ body.sidebar-open {
     align-items: center;
 
     .digital-logo {
-        height: 45px;
+        height: 34px;
     }
 }
 
@@ -274,8 +274,8 @@ body.sidebar-open {
     }
 
     &.lang-toggle {
-        width: 80px !important;
-        height: 40px;
+        width: 70px !important;
+        height: 32px;
         overflow: hidden;
         padding: 0 !important;
         background: transparent;
@@ -296,12 +296,12 @@ body.sidebar-open {
             align-items: center;
             justify-content: center;
             width: 100%;
-            height: 40px;
+            height: 32px;
             flex-shrink: 0;
             line-height: 1.1;
 
             .lang-label {
-                font-size: 14px;
+                font-size: 12px;
                 font-weight: 600;
                 color: $dark-navy;
                 letter-spacing: 0.02em;
@@ -313,7 +313,7 @@ body.sidebar-open {
         }
 
         &.english-mode .lang-roll-container {
-            transform: translateY(-40px);
+            transform: translateY(-32px);
         }
 
         &:hover {
@@ -323,10 +323,10 @@ body.sidebar-open {
 
     &.user-login-btn {
         color: #003b6f;
-        width: 40px;
-        height: 40px;
+        width: 32px;
+        height: 32px;
         justify-content: center;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         transition: transform 1s ease;
     }
 
@@ -401,10 +401,10 @@ body.sidebar-open {
 .nav-item {
     display: block;
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     color: #ffffff;
-    padding: 13px 10px;
+    padding: 12px 10px;
     text-transform: none;
     letter-spacing: 0.02em;
     transition: all 0.3s ease;
@@ -415,14 +415,9 @@ body.sidebar-open {
     text-decoration: none;
     opacity: 0.9;
 
-    @media (max-width: 1400px) {
-        padding: 16px 12px;
-        font-size: 14px;
-    }
-
     @media (min-width: 929px) and (max-width: 1200px) {
-        padding: 16px 7px;
-        font-size: 12px;
+        padding: 9px 6px;
+        font-size: 11px;
     }
 }
 
